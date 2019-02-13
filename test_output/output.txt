@@ -1,0 +1,41 @@
+NaN Values
+first_active_month                      :          0 /     201917
+card_id                                 :          0 /     201917
+feature_1                               :     108459 /      93458
+feature_2                               :      74839 /     127078
+feature_3                               :          0 /     201917
+target                                  :          0 /     201917
+
+feature_1 : feature_2
+feature_2    1.0    3.0
+feature_1              
+3.0        24625  24561
+4.0         9196   3769
+chi2 statistic: 1799.8513188278241
+p-value statistic: 0.0
+degrees of freedom: 1
+expected frequencies [[26765.77538575 22420.22461425]
+ [ 7055.22461425  5909.77538575]]
+
+feature_1 : feature_3
+feature_3      0      1
+feature_1              
+3.0            0  73612
+4.0        19888      0
+chi2 statistic: 93494.0285945695
+p-value statistic: 0.0
+degrees of freedom: 1
+expected frequencies [[15657.70541176 57954.29458824]
+ [ 4230.29458824 15657.70541176]]
+
+feature_2 : feature_3
+feature_3      0      1
+feature_2              
+1.0        40221  49066
+3.0        13295  24561
+chi2 statistic: 1074.388001044553
+p-value statistic: 1.2177722118445326e-235
+degrees of freedom: 1
+expected frequencies [[37581.95962027 51705.04037973]
+ [15934.04037973 21921.95962027]]
+
